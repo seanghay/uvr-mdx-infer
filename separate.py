@@ -194,10 +194,7 @@ def inference(input, vocal_root, others_root, format):
         "denoise": True,
         "model_path": "./UVR-MDX-NET-Inst_Main.onnx"
     }
-    
-    #predictor = Predictor(args=args)
-    #predictor.predict(input, vocal_root, others_root, format)
-    
+     
 def main():
     parser = ArgumentParser()
     
