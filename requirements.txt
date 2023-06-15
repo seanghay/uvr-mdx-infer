@@ -1,0 +1,10 @@
+torch==2.0.1
+audioread==3.0.0
+librosa==0.10.0.post2
+onnx==1.14.0
+onnxruntime==1.15.0
+pydub==0.25.1
+soundstretch==1.2
+tqdm==4.65.0
+Pillow==9.5.0
+resampy==0.4.2
