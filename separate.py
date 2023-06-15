@@ -178,23 +178,7 @@ class Predictor:
         opt = sources[0].T
         
         return (mix - opt, opt, rate)
-        
-        #sf.write("%s/others.%s" % (vocal_root, format), mix - opt, rate)
-        #sf.write("%s/vocals.%s" % (others_root, format), opt, rate)
-        
 
-def inference(input, vocal_root, others_root, format):
-    
-    args2 = {
-        "chunks": 15,
-        "margin": 44100,
-        "dim_t": 8,
-        "dim_f": 2048,
-        "n_fft": 6144,
-        "denoise": True,
-        "model_path": "./UVR-MDX-NET-Inst_Main.onnx"
-    }
-     
 def main():
     parser = ArgumentParser()
     
