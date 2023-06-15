@@ -186,7 +186,7 @@ def main():
     parser.add_argument("-o", "--output", type=Path, default=Path("separated"), help="Output folder")
     parser.add_argument("-m", "--model_path", type=Path, help="MDX Net ONNX Model path")
     
-    parser.add_argument("-d", "--denoise", action="store_true", default=True, help="Enable Denoising")
+    parser.add_argument("-d", "--no-denoise", dest="denoise", action="store_false", default=True, help="Disable denoising")
     parser.add_argument("-M", "--margin", type=int, default=44100, help="Margin")
     parser.add_argument("-c", "--chunks", type=int, default=15, help="Chunk size")
     parser.add_argument("-F", "--n_fft", type=int, default=6144)
