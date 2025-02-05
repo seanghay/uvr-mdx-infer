@@ -1,4 +1,6 @@
-Ultimate Vocal Remover Inference CLI
+📦 Check out my new library called [vocal](https://github.com/seanghay/vocal) for **Vocal/Speech Separation** built with simplicity in mind.
+
+## Ultimate Vocal Remover Inference CLI
 
 ```shell
 python separate.py sample_audio.wav -m UVR-MDX-NET-Inst_Main.onnx
